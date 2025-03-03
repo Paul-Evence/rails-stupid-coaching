@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+ body {
+  padding: 3px 12px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+ h1 {
+  padding: 8px 12px;
+ }
+
+ p {
+  font-weight: light;
+ }
+
+ .mybox {
+  border-left: 3px solid lightgray
+ }
+
+ .myboxans {
+  background-color: rgb(253, 253, 225);
+ }

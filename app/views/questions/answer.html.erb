@@ -1,0 +1,15 @@
+
+<h1>Stupid Coaching</h1>
+
+<div class="container-fluid mybox">
+<%= params[:question] %>
+<h6> <em><%= "- You" %></em></h6>
+</div>
+
+<div class="container-fluid mybox myboxans">
+<strong><%= @coachsays %></strong>
+<h6><em> <%= "- Your coach" %></em></h6>
+</div>
+<p>
+<%= link_to "ask again", ask_path  %>
+</p>
